@@ -1,6 +1,14 @@
 go语言切片
 
 ------------------------------------------------
+切片slice：可变长数组，引用类型
+make():
+func make(t Type, size ...IntegerType) Type
+append():
+slice = append(slice, elem1, elem2)
+slice = append(slice, anotherSlice...)
+
+------------------------------------------------
 package main
 
 import "fmt"
@@ -14,7 +22,7 @@ func main() {
 	fmt.Printf("%T,%T\n", arr, s2) //[4]int,[]int
 
 	s3 := make([]int, 3, 8)
-	fmt.Println("容量：%d,长度：%d\n", cap(s3), len(s3)) //容量：%d,长度：%d 8 3
+	fmt.Printf("容量：%d,长度：%d\n", cap(s3), len(s3)) //容量：8,长度：3
 	s3[0] = 1
 	s3[1] = 2
 	s3[2] = 3

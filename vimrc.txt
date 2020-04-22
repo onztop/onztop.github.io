@@ -1,0 +1,19 @@
+vim设置
+
+-------------------------------
+～/.vimrc
+set nu
+filetype plugin on
+syntax on
+filetype indent on
+set mouse=a
+set tabstop=4
+set softtabstop=4
+set showcmd
+set wildmenu
+set incsearch
+set hlsearch
+set vb t_vb=
+
+---------------------------------
+有了code，vim只适合一些配置文件的简单修改。

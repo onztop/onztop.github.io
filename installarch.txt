@@ -2,6 +2,8 @@
 
 安装系统
 
+---------------------------------------------------------
+
 u盘制作工具：    rufus
 分区软件：       cfdisk
 引导：          grub
@@ -39,6 +41,8 @@ fcitx
 .Xresources添加
 URxvt.inputMethod: fcitx
 
+
+------------------------------------------------------------
 .Xresources设置：
 rofi.color-enabled: true
 URxvt.borderless:False
@@ -123,7 +127,7 @@ URxvt.urlLauncher: firefox
 URxvt.underlineURLs: true
 URxvt.urlButton: 1
 
-
+--------------------------------------------------------
 i3的config
 exec --no-startup-id nm-applet  
 exec --no-startup-id fcitx
